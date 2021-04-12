@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/jj"
+    >
+
+    <EditText
+        android:id="@+id/edit1"
+        android:layout_width="180sp"
+        android:layout_height="50sp"
+        android:layout_x="37dp"
+        android:layout_y="40dp"
+        android:background="#ffffff"
+        android:maxLines="2" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="50sp"
+        android:layout_x="240dp"
+        android:layout_y="40dp"
+        android:text="send1" />
+
+    <EditText
+        android:id="@+id/edit2"
+        android:layout_width="180sp"
+        android:layout_height="50sp"
+        android:layout_x="37dp"
+        android:layout_y="110dp"
+        android:background="#ffffff"
+        android:maxLines="2" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="50sp"
+        android:layout_x="240dp"
+        android:layout_y="110dp"
+        android:text="send2" />
+
+    <EditText
+        android:id="@+id/edit3"
+        android:layout_width="180sp"
+        android:layout_height="50sp"
+        android:layout_x="37dp"
+        android:layout_y="180dp"
+        android:background="#ffffff"
+        android:maxLines="2" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="50sp"
+        android:layout_x="240dp"
+        android:layout_y="180dp"
+        android:text="send3" />
+
+    <EditText
+        android:id="@+id/edit4"
+        android:layout_width="180sp"
+        android:layout_height="50sp"
+        android:layout_x="37dp"
+        android:layout_y="250dp"
+        android:background="#ffffff"
+        android:maxLines="2" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="50sp"
+        android:layout_x="240dp"
+        android:layout_y="250dp"
+        android:text="send4" />
+
+
+        <TextView
+            android:id="@+id/ttv2"
+            android:layout_width="286dp"
+            android:layout_height="77dp"
+            android:background="#FFFFFF"
+            android:layout_x="37dp"
+            android:layout_y="320dp"
+            android:text=""
+            android:textSize="18sp" />
+
+</AbsoluteLayout>
